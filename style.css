@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
+
+
 body * {
     font-family: 'Inter', sans-serif;
     line-height: 160%;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;
 }
 
 body {
@@ -14,7 +29,7 @@ body {
     background-repeat: no-repeat;
     background-color: #121214;
     background-position: top center;
-    background-size: 100% auto;
+    background-size: 101% auto;
 }
 
 ul {
